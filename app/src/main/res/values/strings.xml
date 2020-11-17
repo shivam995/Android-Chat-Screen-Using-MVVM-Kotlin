@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android Chat UI</string>
+    <string name="title_activity_image_fullscreen">FullscreenActivity</string>
+    <string name="close">Close</string>
+</resources>

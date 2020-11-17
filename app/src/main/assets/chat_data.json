@@ -1,0 +1,38 @@
+[
+  {
+    "type": 2,
+    "messageBody": {
+      "messageType": 6,
+      "message": "Hey There! It's nice to see you here"
+    },
+    "createdAt": "Sun Nov 15 2020 11:45:14",
+    "userName": "Boat"
+  },
+  {
+    "type": 1,
+    "messageBody": {
+      "messageType": 3,
+      "url": "@IMAGE_LOCAL(chat_image)"
+    },
+    "createdAt": "Mon Nov 16 2020 11:47:14",
+    "userName": "Boat"
+  },
+  {
+    "type": 1,
+    "messageBody": {
+      "messageType": 5,
+      "url": "@VIDEO_REMOTE(https://www.youtube.com/watch?v=OivR35nWe9g)"
+    },
+    "createdAt": "Tue Nov 17 2020 11:48:14",
+    "userName": "Boat"
+  },
+  {
+    "type": 1,
+    "messageBody": {
+      "messageType": 4,
+      "url": "@AUDIO_LOCAL(meditation)"
+    },
+    "createdAt": "Tue Nov 17 2020 11:58:14",
+    "userName": "Boat"
+  }
+]
