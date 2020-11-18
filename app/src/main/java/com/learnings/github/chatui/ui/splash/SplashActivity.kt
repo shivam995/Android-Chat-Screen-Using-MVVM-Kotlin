@@ -12,9 +12,9 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
+        supportActionBar?.hide()
 
         Handler(Looper.getMainLooper()).postDelayed(Runnable {
-            //start main activity
             startActivity(Intent(this@SplashActivity,
                 ChatActivity::class.java))
             finish()

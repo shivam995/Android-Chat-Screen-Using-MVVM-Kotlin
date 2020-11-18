@@ -30,6 +30,7 @@
         android:layout_marginEnd="8dp"
         android:text="11:16 AM"
         android:textSize="10sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/frameBody"
         app:layout_constraintHorizontal_bias="1.0"

@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.learnings.github.chatui.R
 import com.learnings.github.chatui.model.InteractiveChat
 import com.learnings.github.chatui.utils.VIEW_TYPE_SENT
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_chat.*
 
 
 class ChatActivity : AppCompatActivity() {
@@ -21,7 +21,7 @@ class ChatActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_chat)
         initAdapter()
         viewModel = ViewModelProvider(
             viewModelStore,
@@ -51,7 +51,7 @@ class ChatActivity : AppCompatActivity() {
 
                         v.animate().also {
                             it.translationX(0f)
-                            it.duration = 400
+                            it.duration = 300
                             it.startDelay = i*2000L
                             it.interpolator = AccelerateInterpolator()
                         }.start()
