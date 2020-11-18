@@ -35,6 +35,15 @@ class ChatListAdapter :
         }
     }
 
+    fun addItem(item: InteractiveChat) {
+        var list = ArrayList<InteractiveChat>()
+        list.addAll(currentList)
+        list.add(item)
+        submitList(list)
+        notifyDataSetChanged()
+
+    }
+
     override fun getItemViewType(position: Int): Int {
         return getItem(position).type ?: VIEW_TYPE_SENT
     }
