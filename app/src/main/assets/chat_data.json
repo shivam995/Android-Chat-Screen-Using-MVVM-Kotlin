@@ -27,6 +27,15 @@
     "userName": "Boat"
   },
   {
+    "type": 2,
+    "messageBody": {
+      "messageType": 6,
+      "message": "I'm learning, I'm always learning."
+    },
+    "createdAt": "Sun Nov 15 2020 11:45:14",
+    "userName": "Boat"
+  },
+  {
     "type": 1,
     "messageBody": {
       "messageType": 4,

@@ -1,8 +1,20 @@
 package com.learnings.github.chatui.utils
 
 import android.widget.ImageView
+import androidx.activity.viewModels
+import androidx.fragment.app.FragmentActivity
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import com.learnings.github.chatui.ui.chat.ChatActivityViewModel
 import java.util.regex.Matcher
 import java.util.regex.Pattern
+
+inline fun <reified VM : ViewModel> FragmentActivity.viewModelProvider() =
+    ViewModelProvider(
+        viewModelStore,
+        ViewModelProvider.AndroidViewModelFactory.getInstance(application)
+    )
+        .get(VM::class.java)
 
 
 fun ImageView.loadImage(resourceData: ResourceData?) {
